@@ -1,0 +1,10 @@
+*/.ipynb_checkpoints/*
+*/web_session/*
+tags
+*.cys
+*.pdf
+*.zip
+*.png
+*.pyc
+*.swp
+*.fdb_latexmk
