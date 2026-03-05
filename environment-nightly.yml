@@ -1,0 +1,15 @@
+name: DL-CUDA-nightly
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - jupyter
+  - ipykernel
+  - pytest
+  - ruff
+  - mypy
+  - pip:
+      - --index-url https://download.pytorch.org/whl/nightly/cu128
+      - torch
+      - torchvision

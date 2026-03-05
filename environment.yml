@@ -1,0 +1,17 @@
+name: DL-CUDA
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pytorch
+  - pytorch-cuda=12.4
+  - torchvision
+  - jupyter
+  - ipykernel
+  - pytest
+  - ruff
+  - mypy
+  - intel-openmp<2025

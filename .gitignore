@@ -1,7 +1,8 @@
 */.ipynb_checkpoints/*
 */web_session/*
-*/data/*
-*/from-others/*
+/data/
+/presentations/
+/from-others/
 tags
 *.cys
 *.pdf
